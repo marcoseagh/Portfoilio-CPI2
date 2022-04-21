@@ -1,7 +1,124 @@
-<html>
-  <body>
-  
-  <p> Exemplo de página </p>
- 
-</body>
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<title> Modernus Camisetas</title>
+	<meta charset="utf-8" />
+	<meta name="author" content="Marcos Silva" />
+	<meta name="keywords" content="camisetas, encomendas, algodão"/>
+	<meta name="description" content="Modernus Camisetas" />	
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Alex+Brush&family=Cormorant+SC:wght@400;500&display=swap" rel="stylesheet">
+
+	<nav>
+	<a href="#"> Home </a>
+	<a href="#pag-sobre"> Sobre </a>
+	<a href="#pag-produtos"> Produtos </a>
+	<a href="#pag-encomendas"> Encomendas </a>
+	</nav>
+</head>
+
+	<header>
+	<img src="imgs/1.png" alt="banner com logo da loja com Modernus Camisetas escrito">
+	</header>
+
+ <article id="pag-sobre">
+		<h2> Sobre nós </h2>
+		<p> A <strong> Modernus Camisetas </strong> é uma loja que visa vender produtos de qualidade por preços acessíveis. Nossas camisetas  são 100% algodão com 30 fios, de fácil lavagem e não amassam. </p>
+ 		<p> Temos <strong> frete grátis </strong> para todo país. faça já seu pedido. </p>
+ </article>
+
+<section id="pag-produtos">
+	<h2> Produtos </h2>
+	
+<div id="container">
+		<div class="card">
+				<div class="card-content">
+					<img src="imgs/camiseta1.png"/>
+						<div class="container1">	<h3> Camiseta Leão </h3> <div> <p> r$24,99 </p> </div> </div>
+							</div> </div>
+
+					<div class="card">
+						<div class="card-content">
+							<img src="imgs/camiseta2.png">
+								<div class="container1">	<h3> Camiseta Friends Are Here </h3> <div> <p> r$19,99 </p> </div> </div>
+									</div> </div>
+
+									<div class="card">
+										<div class="card-content">
+											<img src="imgs/camiseta3.png">
+												<div class="container1">	<h3> Camiseta Fashion </h3> <div> <p> r$14,99 </p> </div> </div>
+													</div> </div>
+
+													<div class="card">
+													<div class="card-content">
+														<img src="imgs/camiseta4.png">
+															<div class="container1">	<h3> Camiseta Graças a Deus </h3> <div> <p> r$ 24,99 </p> </div> </div>
+																</div> </div>
+		</div>
+	
+
+		</section>
+
+
+
+<section id="pag-encomendas">
+	<h2> Encomendas </h2>
+
+ 	<form name="" method="" action="">
+ 	<label for="nome"> Nome:</label>
+	<input id="nome" type="text" name="nome_completo" size="60" placeholder="Digite seu nome completo"/>
+
+
+	<label for="e-mail"> E-mail: </label> 
+	<input id="e-mail" name="email" type="email" size="60" placeholder="nome@email.com" required>
+
+	<label> Produto:</label for="modelos"> 
+
+	<select id="modelo" name="modelo">
+		<option> Camiseta Leão </option>
+		<option> Camiseta Friends Are Here </option>
+		<option> Camiseta Fashion   </option>
+		<option> Camiseta Graças a Deus </option>
+	</select>
+ 	
+	
+	<label for="quantidade"> Quantidade: </label> 
+
+	<input id="quantidade" name="quantidade" type="number" size="60" placeholder="Somente números" min="1" required>
+
+	
+	<fieldset> 
+		<legend> Forma de Retirada:</legend>
+		
+
+		<input id="delivery" type="radio" name="delivery"/>
+		<label for="delivery"> Delivery
+		</label>
+
+		<input  id="local" type="radio" name="delivery"/> 
+		<label for="local"> Retirada no Local
+		</label>
+	
+	</fieldset>
+
+	<label for="msg">Comentário:</label> 
+		<textarea id="msg" cols="120" rows="4">
+		</textarea>
+
+
+	<div id="botoes">
+	 	<input type="submit" name="" value="Encomendar"/>  
+		<input type="reset" name="" value="Cancelar"/>
+	</div>
+
+</form>
+</section>
+
+<footer>
+  <a href="https://www.instagram.com/marcoseagh/" target="_blank"> Desenvolvido por Marcos Silva • 2022 </a>
+</footer>
+
+	</body>
 </html>
